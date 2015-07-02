@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sites</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+  		<header>
+  			<div class="hero">
+  				<div class="container">
+  					<img src="images/me.jpg" alt="david picture">
+  					<h1>Hello! I'm David.</h1>
+  				</div>
+          <div class="code-wrapper">
+            <span class="element" style="white-space:pre"></span>
+          </div>
+  				<button class="button-primary">See work</button>
+  				<button class="button-secondary">Let's talk</button>
+  			</div>
+  		</header>
+
+  		<nav class="nav-bar">
+  			<div class="container">
+  				<a href="#">Home</a>
+  				<a href="#">Work</a>
+  				<a href="#">Blog</a>
+  				<a href="#">Contact</a>
+  			</div>
+  		</nav>
+
+
+  		<section id="about">
+  	    <div class="container">
+  	      <h2>About me</h2>
+  	      <p>My name is Cat Noone and I’m a designer with a love for creating meaningful products that are simple and easy to use. I'm the Co-Founder and Chief Design Officer of Liberio.</p>
+
+  				<p>I'm also co-maker of Coo, MakerHunt, Designer Relationships, The Gentle Hound, and official proofer and bufferer of Typoguide. I build a lot of things with my significant other and partner in crime, Benedikt Lehnert. I’m a huge advocate for side projects and love working on them in my spare time.</p>
+
+  				<p>You can find me on Twitter chatting about design, tech and other randomness. I also enjoy writing and occasionally showcase some of the goodies I’ve been designing on Dribbble.</p>
+
+  				<p>If you'd like to talk design, want me to speak at your event (See a few I spoke at already), or want to grab a coffee, feel free to reach out.</p>
+  	      <button class="button-primary">More</button>
+  	    </div>
+        <hr class="container">
+  	  </section>
+
+  		<div class="portfolio">
+  			<div class="container">
+  			<!-- 	<div class="row"> -->
+  				<div id="work" class="js-masonry container u-max-full-width" data-masonry-options='{ "columnWidth": ".grid-sizer", "itemSelector": ".item", "percentPosition": true, "isFitWidth": true}'>
+  					<div class="grid-sizer"></div>
+  					<div class="item">
+  						<div class="cover-img"></div>
+  					</div>
+  					<div class="item">
+  						<div class="cover-img2"></div>
+  					</div>
+  					<div class="item">
+  						<div class="cover-img"></div>
+  					</div>
+  					<div class="item">
+  						<div class="cover-img2"></div>
+  					</div>
+  					<div class="item">
+  						<div class="cover-img"></div>
+  					</div>
+  					<div class="item">
+  						<div class="cover-img2"></div>
+  					</div>
+  				</div>
+  			<!-- 	</div> -->
+  		</div>
+    </div>
+
+  	<section id="work-with-me">
+  		<div class="container">
+  			<div class="content row">
+  				<div class="seven columns">
+  					<p>I aim to make beautiful, useful websites for ideas I believe in. My favorite projects are collaborative, where we work together to solve real problems. If you have one such project, I'd love to hear about it.</p>
+  				</div>
+  				<div class="five columns">
+  					<button class="button-primary">Let's Talk</button>
+  				</div>
+  			</div>
+  		</div>
+      <footer class="u-full-width">
+        <p>Created with <span>LOVE</span></p>
+      </footer>
+  	</section>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="/bower_components/typed.js/js/typed.js"></script>
+    <script>
+      $(function(){
+          $(".element").typed({
+            strings: ["I’m a designer and web developer ^2000 \nwith a love for creating. ^1000", "If you want to know more about me, ^1000 ", "please click on the links below."],
+            typeSpeed: 20,
+            backSpeed: 10,
+            backDelay: 500,
+          });
+      });
+    </script>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
